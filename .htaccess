@@ -1,0 +1,15 @@
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L]
+
+php_value upload_max_filesize 500M
+php_value post_max_size 400M
+
+DirectoryIndex index.php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|css|js|robots\.txt|favicon\.ico)
+# RewriteCond $1 !^(index\.php|library|user_guide|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php/$1 [L,QSA]
