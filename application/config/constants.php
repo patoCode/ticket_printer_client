@@ -84,14 +84,14 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-define('NOMBRE_SIS', 'tickET');
+define('NOMBRE_SIS', '**********');
 /* CONSTANTES DE EMPRESA*/
-define('NOMBRE_EMP','ENDE CORPORACIÓN');
-define('SIGLA_EMP','ENDE');
-define('WEB_EMPRESA','www.ende.bo');
+define('NOMBRE_EMP','**********');
+define('SIGLA_EMP','**********');
+define('WEB_EMPRESA','www.**********.bo');
 define('ENCABEZADO_TK','BIENVENIDO A ');
 define('SUCURSAL_TK','SUCURSAL');
-define('SERVER','http://ticketdesa.ende.bo/sistemas_colas/');
+define('SERVER','http://**********.**********.bo/**********/');
 
 define('SHOW_COUNTDOWN', true);
 define('COUNTDOWN_TIME', 0.1); //MINUTOS
